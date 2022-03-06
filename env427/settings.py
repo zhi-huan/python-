@@ -243,7 +243,7 @@ LOGGING = {
             'when': 'midnight',
             'backupCount': 30,
 
-            'filename': os.path.join(BASE_DIR, 'logs/debug.log'),
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
             'formatter': 'verbose',
         },
     },
